@@ -1,0 +1,46 @@
+div.logo a {  /* .logo a doesn't work??? */
+    padding: 0;
+    background: transparent;
+}
+
+header .container {
+    width: 1000px;
+}
+
+section > .container {
+    width: 33.333%;
+}
+
+.container .container {
+    width: 100%;
+    flex-direction: column;
+}
+
+section div.links a {
+    list-style: none;
+    text-decoration: none;
+}
+
+a[href*="#"] {
+    text-transform: uppercase;
+}
+
+a[class~="green"]:not([href*="#"]) {
+    color: green;
+}
+
+a[class~="upper"] {
+    text-transform: uppercase;
+}
+
+a[class~="red"]:not(a[class~="green"]) {
+    color: red;
+}
+
+.hover-me-btn:hover ~ .hide-me{
+    display: none;
+}
+
+.hover-me-btn:hover ~ .show-me{
+    display: block;
+}
