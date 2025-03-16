@@ -1,0 +1,64 @@
+
+.social li {
+    display: inline-block;
+    font-size: 36px;
+}
+
+.fb:hover {
+    color: blue;
+}
+.yt:hover {
+    color: red;
+}
+.tw:hover {
+    color: yellow;
+}
+
+.banner {
+    background-image: url(../images/banner.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div[class~="text-block"] {
+    padding: 20px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+div[class~="center"] {
+    text-align: center;
+}
+
+div[class~="right"] {
+    text-align: right;
+}
+
+h3.title {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+p.description {
+    font-size: 20px;
+    line-height: 32px;
+    text-indent: 50px;
+    font-style: italic;
+}
+
+a.link {
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 6px;
+    color: blue;
+    text-shadow: 2px 2px 1px blue;
+}
+
+a.link:hover {
+    text-shadow:  none;
+    text-decoration: underline;
+    color: green;
+}

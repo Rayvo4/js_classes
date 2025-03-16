@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW-3</title>
+    <link rel="stylesheet" href="./css/style-1.css">
+    <link rel="stylesheet" href="./css/fontawesome.css"> <!-- Подключаем иконки Fontawesome -->
+    <link rel="stylesheet" href="./css/style-2.css"> <!-- Для работы со стилями создаем свой файл стилей и работаем в нем -->
+    <script src="https://kit.fontawesome.com/5192dbc933.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#">
+                    <img src="./images/logo-black.png" alt="">
+                </a>
+            </div>
+            <div class="social"> <!-- Необходимо создать список социальных иконок; Общие стили - размер шрифта иконок 36px; Что бы иконки шли в ряд, можно задать для элементов списка display: inline-block;    -->  
+                <ul>
+                    <li class="fb"><i class="fa-brands fa-facebook"></i></li>  <!-- 1)Facebook - при наведении на которую цвет меняется на синий -->
+                    <li class="yt"><i class="fa-brands fa-youtube"></i></li> <!-- 2)Youtube - при наведении на которую цвет меняется на красный -->
+                    <li class="tw"><i class="fa-brands fa-x-twitter"></i></li> <!-- 3)Twitter - при наведении на которую цвет еняется на желтый --> 
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <!--Создаем фон для данной секции:
+                - устанавливаем фоновое изображение banner.jpg
+                - устанавливаем высоту .banner 500px
+                - устанавливаем позицию изображения center
+                - устанавливаем повторение фона no-repeat
+                - устанавливаем маштабирование фона cover -->
+        </section>
+        <section class="text-content">
+
+            <!--Общие правила для всех .text-block
+            1) Устанавливаем внутренние отсупы padding: 20px; 
+            2) Создаем рамку вокруг блока  border: 1px solid black; 
+            3) Устанавливаем нижний наружный отступ margin-bottom: 30px; 
+            4) Заголовкам задаем:
+                - размер шрифта 30px
+                - делаем текст в верхнем регистре
+                - расстояние между буквами 6px 
+            5) Для параграфов задаем:
+                - размер шрифта 20px
+                - высота строки 32px
+                - отступ первой строки 50px
+                - установить курсивное начертание
+            6) Для ссылок:
+                - сделать в верхнем регистре
+                - убрать нижнее подчеркивание
+                - расстояние между буквами 6px
+                - установить синий цвет
+                - установить тень текста с параметрами 2px 2px 1px blue;
+                - при наведении на ссылку:
+                    - убрать тень
+                    - добавить нижнее подчеркивание
+                    - установить цвет зеленый
+                -->
+
+            <div class="text-block">
+                <h3 class="title">text title 1</h3>
+                <p class="description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis non ea aliquam, provident qui debitis sunt delectus facere, quis eligendi architecto inventore totam laborum id praesentium nisi repellendus, possimus odio.
+                </p>
+                <a href="#" class="link">read more</a>
+            </div>
+
+
+            <!--Для данного блока установить весь текст по центру-->
+            <div class="text-block center">
+                <h3 class="title">text title 2</h3>
+                <p class="description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis non ea aliquam, provident qui debitis sunt delectus facere, quis eligendi architecto inventore totam laborum id praesentium nisi repellendus, possimus odio.
+                </p>
+                <a href="#" class="link">read more</a>
+            </div>
+
+            <!--Для данного блока установить весь текст прижатым к правому краю-->
+            <div class="text-block right">
+                <h3 class="title">text title 3</h3>
+                <p class="description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis non ea aliquam, provident qui debitis sunt delectus facere, quis eligendi architecto inventore totam laborum id praesentium nisi repellendus, possimus odio.
+                </p>
+                <a href="#" class="link">read more</a>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
