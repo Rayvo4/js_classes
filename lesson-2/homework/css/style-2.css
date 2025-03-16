@@ -33,7 +33,7 @@ a[class~="upper"] {
     text-transform: uppercase;
 }
 
-a[class~="red"]:not(a[class~="green"]) {
+a[class~="red"]:not([class~="green"]) {
     color: red;
 }
 
