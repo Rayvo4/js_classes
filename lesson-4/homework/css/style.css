@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    border-bottom: 2px solid #00e9ba ;
+    padding: 20px;
+}
+
+body {
+    background-color: rgb(216, 216, 216);
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto; 
+}
+
+header .logo, nav, nav li
+ {
+    float: left;
+}
+
+nav {
+    margin-left: 100px;
+}
+
+nav li {
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+
+.social-menu, .social-menu li {
+    float: right;
+}
+
+.social-menu li {
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+section {
+    padding: 80px 20px;
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.tech {
+    text-align: left;
+}
+
+.name {
+    text-align: right;
+    display: block;
+    color: #00e9ba;
+}
+
+.card {
+    max-width: 33.333%;
+    float: left;
+}
+
+.card_inner {
+    width: 80%;
+    padding: 8px 16px;
+    position: relative;
+    background: white;
+    margin: 0 auto;
+    box-shadow: -1px -1px 38px black;
+}
+
+.card_inner img {
+    width: 100%;
+}
+
+h1, h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.circle-yellow::before, .circle-green::before {
+    border-radius: 100%;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: -25px;
+    width: 50px;
+    height: 50px;
+}
+
+.circle-yellow::before {
+    left:-25px;
+    content: 'HIT';
+    background-color: yellow;
+}
+
+.circle-green::before {
+    right:-25px;
+    content: 'NEW';
+    background-color: green;
+    color: white;
+}
+
+.text {
+    display: block;
+    font-size: 20px;
+    text-indent: 30px;
+    width: 33.333%;
+    float: left;
+    padding: 16px;
+    height: 250px;
+    font-variant: small-caps;
+}
