@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Debby';
+    src: url('../fonts/debby/subset-Debby.eot');
+    src: url('../fonts/debby/subset-Debby.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/debby/subset-Debby.woff2') format('woff2'),
+        url('../fonts/debby/subset-Debby.woff') format('woff'),
+        url('../fonts/debby/subset-Debby.ttf') format('truetype'),
+        url('../fonts/debby/subset-Debby.svg#Debby') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('../fonts/muller/subset-MullerRegular.eot');
+    src: url('../fonts/muller/subset-MullerRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/muller/subset-MullerRegular.woff2') format('woff2'),
+        url('../fonts/muller/subset-MullerRegular.woff') format('woff'),
+        url('../fonts/muller/subset-MullerRegular.ttf') format('truetype'),
+        url('../fonts/muller/subset-MullerRegular.svg#MullerRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

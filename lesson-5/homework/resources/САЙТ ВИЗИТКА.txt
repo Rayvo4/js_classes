@@ -1,0 +1,2 @@
+Для загрузок иконок используем сайт http://fontawesome.ru/
+Для того, что бы получить нужные нам шрифты, используем https://www.fontsquirrel.com/tools/webfont-generator
